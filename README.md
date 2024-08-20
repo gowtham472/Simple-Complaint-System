@@ -25,4 +25,23 @@ This is a simple command-line application for managing customer complaints using
 4. **Run the script**:
     python complaints.py
 
+## Usage
+
+When you run the script, you will be presented with three options:
+
+1. New Complaint: Enter your name and complaint to register it in the system. You will receive a unique complaint ID.
+2. Change Status: Enter your name and complaint ID to mark the complaint as "RESOLVED".
+3. Exit: Close the application.
+
+## Database Structure
+
+The application uses a single table named complain with the following fields:
+
+-**ID**: An auto-incrementing integer that uniquely identifies each complaint.
+-**customername**: The name of the customer filing the complaint.
+-**complaint**: The text of the complaint.
+-**status**: The status of the complaint, either "UNRESOLVED" (default) or "RESOLVED".
+
+
+
 
