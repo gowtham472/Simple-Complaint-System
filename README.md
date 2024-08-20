@@ -17,7 +17,7 @@ This is a simple command-line application for managing customer complaints using
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/gowtham472/Simple-Complaints-System.git
+   git clone https://github.com/gowtham472/Simple-Complaint-System.git
 
 2. **Navigate to the project directory**:
     cd complaints
